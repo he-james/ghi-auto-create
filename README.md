@@ -14,5 +14,7 @@ Shell script using [ghi](https://rubygems.org/gems/ghi/versions/1.2.0) to create
 Then, add `ghi-auto-create.sh` to your repository. Then run:
 
 ```
-  source ./ghi-auto-create.sh <filename> # run ghi-auto-create
+  source ./ghi-auto-create.sh <filename.txt> # run ghi-auto-create
 ```
+
+The script maps each line of filename.txt to an array and runs `ghi open` to open each line as a new issue.
